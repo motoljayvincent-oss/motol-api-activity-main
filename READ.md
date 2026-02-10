@@ -17,3 +17,9 @@ Markdown
     - Answer: Returning 404 clearly indicates that the requested resource does not exist, improving cllient side error handling.
 **4. Testing:**
 ![Successful GET Request](Screenshot%202026-01-29%20204739.png)
+
+## Why did I choose to Embed the [Review/Tag/Log]?
+- I chose to Embed the Dish because it is a part of the Chef's identity that you want to load instantly in a single query, ensuring high performance for read-heavy displays.
+
+## Why did I choose to Reference the [Chef/User/Guest]?
+- I chose to Reference the Chef because the Chef is a standalone entity whose information shouldn't be duplicated, allowing you to update their details in one place without affecting thousands of individual dish records.
