@@ -22,6 +22,7 @@ Markdown
 - I chose to Embed the Dish because it is a part of the Chef's identity that you want to load instantly in a single query, ensuring high performance for read-heavy displays.
 
 ## Why did I choose to Reference the [Chef/User/Guest]?
+<<<<<<< HEAD
 - I chose to Reference the Chef because the Chef is a standalone entity whose information shouldn't be duplicated, allowing you to update their details in one place without affecting thousands of individual dish records.
 
 ## Authentication vs Authorization:
@@ -35,3 +36,6 @@ Why did we use bcryptjs instead of saving passwords as plain text in MongoDB?
 ## JWT Structure:
 What does the protect middleware do when it receives a JWT from the client?
 - The protect middleware verifies the JWT sent by the client to ensure that the request comes from an authenticated user. If the token is valid, it decodes the user information and allows access to protected routes.
+=======
+- I chose to Reference the Chef because the Chef is a standalone entity whose information shouldn't be duplicated, allowing you to update their details in one place without affecting thousands of individual dish records.
+>>>>>>> 568f697423e97f01cbcf6da81fc7e1855f44fbb6

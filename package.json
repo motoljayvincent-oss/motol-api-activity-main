@@ -13,12 +13,18 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+<<<<<<< HEAD
     "bcryptjs": "^3.0.3",
+=======
+>>>>>>> 568f697423e97f01cbcf6da81fc7e1855f44fbb6
     "cors": "^2.8.6",
     "dns": "^0.2.2",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+<<<<<<< HEAD
     "jsonwebtoken": "^9.0.3",
+=======
+>>>>>>> 568f697423e97f01cbcf6da81fc7e1855f44fbb6
     "mongoose": "^9.1.6"
   },
   "devDependencies": {
